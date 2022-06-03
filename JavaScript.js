@@ -117,6 +117,10 @@ function playerMove() {
     ball.y += ball.speedY;
 }
 
+canvas.onmousemove = function (event) {
+    player_1.y = event.offsetY;
+}
+
 
 
 //canvas.KEYBOARD
