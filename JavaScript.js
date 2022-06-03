@@ -59,6 +59,14 @@ window.addEventListener("keyup", function (e) {
     delete keys[e.keyCode];
 });
 
+function rightButtonListenet() {
+    player_1.y -= speed;
+}
+
+function leftButtonListenet() {
+    player_1.y += speed;
+}
+
 function playerMove() {
     if (keys[87] && player_1.y > 0) {
         player_1.y -= speed;
@@ -103,6 +111,7 @@ function playerMove() {
 
     document.getElementById("firstPlayer").innerText = score1;
     document.getElementById("secondPlayer").innerText = score2;
+    player_2.y += (ball.y - player_2.y - player_2.height / 2) * 0.5;
 
     ball.x += ball.speedX;
     ball.y += ball.speedY;
