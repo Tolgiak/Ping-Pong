@@ -1,0 +1,45 @@
+﻿* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+#canvas {
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    border-top: 0;
+    display: block;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#firstPlayer {
+    width: 50%;
+    height: 40px;
+    border-bottom: 2px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    color: #309c1f;
+    font-size: 40px;
+}
+
+#secondPlayer {
+    width: 50%;
+    height: 40px;
+    border-bottom: 2px solid black;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+    color: #9c224b;
+    font-size: 40px;
+}
